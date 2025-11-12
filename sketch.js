@@ -57,8 +57,8 @@ function draw() {
 
   noStroke();
   fill(eyeColor);
-  ellipse(x - eyeOffsetX, y + 50, eyeSize, eyeSize); // left eye lower
-  ellipse(x + eyeOffsetX, y + 50, eyeSize, eyeSize); // right eye lower
+  ellipse(x - eyeOffsetX, y + 51, eyeSize, eyeSize); // left eye lower
+  ellipse(x + eyeOffsetX, y + 51, eyeSize, eyeSize); // right eye lower
 }
 
 // Resize canvas and rescale image if screen size changes
